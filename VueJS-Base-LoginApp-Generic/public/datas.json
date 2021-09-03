@@ -1,0 +1,6 @@
+{
+
+    "URL_BACKEND":"http://localhost:7078",
+    "URL_FRONTEND":"http://localhost:8080"
+
+}

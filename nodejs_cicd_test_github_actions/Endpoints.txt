@@ -1,0 +1,36 @@
+API:
+
+O:
+
+testing if api is working 
+
+http://localhost:3000
+
+
+
+1:
+
+POST
+
+creating users: if it is in localhost use then http://localhost:3000
+
+https://mnr.cmcloudlab730.info/usuario
+
+
+{
+	
+     "nombre": "FROM THE 3 REPLICA",
+     "telefono": "3105451068",
+     "email": "JUANDAMVID@GMAIOL.COM"
+	
+}
+
+
+2: getting users
+
+GET 
+
+if it is in localhost use then http://localhost:3000
+OR USE JUST THE PLAIN DNS 
+
+http://localhost:3000/usuario

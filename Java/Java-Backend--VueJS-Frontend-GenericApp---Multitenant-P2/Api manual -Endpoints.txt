@@ -1,0 +1,40 @@
+ROLE USERS:
+
+1: ROLE_USER
+2: ROLE_ADMIN
+3: ROLE_SUPERADMIN
+
+
+API MANUAL
+
+* Creating USERs:
+
+endpoint for creating a superadmin: localhost:7078/api/auth/signup/superadmin
+endpoint for creating an admin: localhost:7078/api/auth/signup/admin
+endpoint for creating a enduser: localhost:7078/api/auth/signup/enduser
+
+{
+    "name":"test",
+    "username":"david",
+    "email":"none@none.com",
+    "password":"123456",
+    
+    "empresa":"COMPANIS S.A.S",
+    "urlServer":"'http://localhost:7079/'",
+    "database":"db1",
+    "tenantId":"tenantId1",
+    "nitempresa":"15008831-1"
+ 
+}
+
+
+* Login USERs:
+
+endpoint for login: localhost:7078/api/auth/signin
+
+{
+    "usernameOrEmail":"david",
+    "password":"123456"
+  
+}
+
